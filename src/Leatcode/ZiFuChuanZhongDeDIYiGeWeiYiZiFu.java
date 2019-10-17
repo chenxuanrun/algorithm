@@ -1,5 +1,6 @@
 package Leatcode;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -34,4 +35,5 @@ public class ZiFuChuanZhongDeDIYiGeWeiYiZiFu {
         }
         return s.indexOf(String.valueOf(list.get(0)));
     }
+    
 }
