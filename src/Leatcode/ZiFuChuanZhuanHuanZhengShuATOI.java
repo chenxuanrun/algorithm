@@ -1,17 +1,12 @@
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+package Leatcode;
 
 /**
- * @program: algorithmDemo
- * @description: Solution
+ * @program: algorithmLearning
+ * @description: leetcode_字符串转换整数 (atoi)
  * @author: cxr
- * @create: 2019-08-25 00:11
+ * @create: 2019-11-08 17:08
  **/
-public class Solution {
-    public static void main(String[] args) {
-        new Solution().myAtoi("42");
-    }
+public class ZiFuChuanZhuanHuanZhengShuATOI {
     public int myAtoi(String str) {
         str = str.trim();
         if (str == null || str.length() == 0) return 0;
@@ -39,6 +34,4 @@ public class Solution {
         }
         return (int) res * sign;
     }
-
 }
-    
